@@ -1,0 +1,193 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.landing
+{
+    
+    height: 100%;
+    /*clip-path: polygon(21% 0, 100% 0, 100% 100%, 0% 100%);*/
+    padding: 55px 0;
+}
+
+.loginBox
+{
+    
+    width: 400px;
+    border-radius: 10px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 55px 35px;
+    text-align: center;
+}
+
+.signinBox
+{  
+    width: 90%;
+    border-radius: 10px;
+    padding: 55px 35px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+
+input, button
+{
+    background: rgba(128, 128, 128, 0.116);
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    margin: 15px 0;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+
+.logout
+{
+    width: 300px;
+    background: rgb(223, 41, 78);
+    color: white;
+    
+}
+.logout:hover
+{
+    background: crimson;
+}
+
+#message {
+    display:none;
+    background: #f1f1f1;
+    color: #000;
+    position: relative;
+    padding: 20px;
+    margin-top: 10px;
+  }
+  
+  #message p {
+    padding: 10px 35px;
+    font-size: 18px;
+  }
+  
+  /* Add a green text color and a checkmark when the requirements are right */
+  .valid {
+    color: green;
+  }
+  
+  .valid:before {
+    position: relative;
+    left: -35px;
+    content: "&#10004;";
+  }
+  
+  /* Add a red text color and an "x" icon when the requirements are wrong */
+  .invalid {
+    color: red;
+  }
+  
+  .invalid:before {
+    position: relative;
+    left: -35px;
+    content: "&#10006;";
+  }
+
+  /*=====================================================================================*/
+
+.panel
+{
+      
+      padding: 15px;
+}
+
+.logo
+{
+      cursor: pointer;
+}
+
+.logo span
+{
+      color: crimson;
+}
+
+.nav
+{
+     float: right; 
+}
+
+.nav ul
+{
+      list-style-type: none;
+}
+
+.nav ul li
+{
+      display: inline;
+      margin: 0 17px;
+}
+
+.nav ul li a
+{
+      text-decoration: none;
+      color: black;
+}
+
+.nav ul li a:hover
+{
+      text-decoration: none;
+      color: crimson;
+}
+
+.nav ul li button
+{
+      width: 100px;
+      padding: 2px 7px;
+      outline: crimson;
+      border: 1px solid crimson;
+      background: white;
+      color: crimson;
+      font-weight: 500;
+}
+
+.nav ul li button:hover
+{
+      color: white;
+      background: rgba(220, 20, 60, 0.863);
+}
+
+.mob-panel
+{
+      display: none;
+}
+
+/*=======================================================================================*/
+
+/*CART*/
+
+.table img
+{
+      width: 100px; 
+}
+
+.totalBox
+{
+      text-align: right;
+}
+

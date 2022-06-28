@@ -1,0 +1,47 @@
+@media screen and (max-width: 780px)
+{
+    .landing
+    {
+        background: none;
+        height: 100%;
+        padding: 25px;
+    }
+    .loginBox
+    {
+        width: 90%;
+    }
+
+    .signinBox
+    {
+        width: 90%;
+        padding: 55px 0;
+    }
+
+    .logout
+    {
+        width: 100%;
+    }
+
+    .nav
+    {
+        display: none;
+    }
+
+    .mob-panel
+    {
+        display: block;
+        position: fixed;
+        background: black;
+        padding: 15px;
+        width: 100%;
+        bottom: 0;
+        text-align: center;
+        color: white;
+        z-index: 3;
+    }
+
+    .mob-panel i:hover
+    {
+        color: crimson;
+    }
+}

@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter&display=swap');
+*
+{
+      margin: 0;
+      padding: 0;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.panel
+{
+      
+      padding: 15px;
+}
+
+.logo
+{
+      cursor: pointer;
+}
+
+.logo span
+{
+      color: crimson;
+}
+
+.nav
+{
+     float: right; 
+}
+
+.nav ul
+{
+      list-style-type: none;
+}
+
+.nav ul li
+{
+      display: inline;
+      margin: 0 17px;
+}
+
+.nav ul li a
+{
+      text-decoration: none;
+      color: black;
+}
+
+.nav ul li a:hover
+{
+      text-decoration: none;
+      color: crimson;
+}
+
+.nav ul li button
+{
+      padding: 2px 7px;
+      outline: crimson;
+      border: 1px solid crimson;
+      background: white;
+      color: crimson;
+      font-weight: 500;
+}
+
+.nav ul li button:hover
+{
+      color: white;
+      background: rgba(220, 20, 60, 0.863);
+}
+
+.mob-panel
+{
+      display: none;
+}
+
+/*================================================================================================================================*/
+
+.landing
+{
+      height: 80vh;
+      width: 100%;
+      background: #c8ebff;
+      text-align: center;
+}
+
+.tags
+{
+      display: block;
+      margin: 20% auto;
+      text-align: center;
+}
+
+.tags .discount
+{
+      font-family: cursive;
+      color: crimson;
+}
+
+.tags .desc
+{
+      color: #2577fe;
+      font-family: cursive;
+}
+
+.tags button
+{
+      background: crimson;
+      color: white;
+      padding: 3px 10px;
+      outline: none;
+      border: none;
+}
+
+.tagpic
+{
+      height: 80vh;
+}
+
+.slide-1
+{
+      background: #c8ebff;
+}
+
+.slide-2
+{
+      background: #fbeace;
+}
+/*================================================================================================================*/
+
+.category .cardbox
+{
+    height: 400px;
+    width: 90%;
+    background: rgb(3, 1, 26);
+    display: block;
+    margin: 25px auto;
+    border-radius: 5px;
+}
+
+.cardbox .vectorleft
+{
+    height: 400px;
+    width: 25px;
+    float: left;
+    background: crimson;
+}
+
+.cardbox .vectorright
+{
+    height: 400px;
+    width: 25px;
+    float: right;
+    background: crimson;
+    margin-left: 20px;
+}
+
+.cardbox .propic
+{
+    height: 400px;
+    display: block;
+    margin: 0;
+}
+
+.cardbox .procontent
+{
+    margin: 20% auto;
+    color: white;
+}
+
+.cardbox .procontent .contentHeading
+{
+    font-size: 25px;
+}
+.cardbox .procontent button
+{
+    background: yellow;
+    color: black;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    padding: 3px 10px;
+}
+
+.cardbox .procontent button:hover
+{
+      background: black;
+      color: yellow;
+}
+
+/*===============================================================================================================*/
+
+.featurecard
+{
+      width: 85%;
+      height: 280px;
+      padding: 15px;
+      display: block;
+      margin: 15px auto;
+}
+
+.featurecard .featureicon i
+{
+      font-size: 50px;
+      margin: 10px 0;
+      color: crimson;
+}
+
+/*===============================================================================================================*/
+
+footer
+{
+      background: #171d29;
+      padding: 25px 25px 5px 25px;
+}
+
+footer img
+{
+      height: 90px;
+      float: left;
+}
+
+footer .logo-invert h3
+{
+      color: white;
+}
+
+footer .logo-invert span
+{
+      color: crimson;
+}
+
+footer .links
+{
+      display: block;
+      margin: 15px auto;
+      
+}
+
+footer .links ul
+{
+      color: white;
+      list-style-type: none;
+}
+
+footer .links ul li
+{
+      display: inline;
+      margin: 15px 10px;
+}
+
+footer .links ul li:hover
+{
+      cursor: pointer;
+      color: crimson;
+}
+
+footer .links ul li i
+{
+      font-size: 20px;
+}
+
+footer p
+{
+      color: white;
+      cursor: default;
+}
+
+/*===============================================================================================*/
+/*GALLERY*/
+
+.freetxt
+{
+      position: absolute;
+      color: rgba(255, 255, 255, 0.226);
+      font-size: 120px;
+      top: 105px;
+      left: 50%;
+      font-family: 'Comforter', cursive;
+}
+
+.gallery .panel
+{
+      width: 100%;
+      padding: 55px;
+      background: #2577fe;
+      color: white;
+      margin-bottom: 65px;
+}
+
+.gallery .panel .pName
+{
+      text-align: center;
+      z-index: 2;
+}
+
+.productCard
+{
+      width: 95%;
+      height: 94%;
+      background: rgba(0, 0, 0, 0.034);
+      padding: 10px;
+      display: block;
+      margin: 0 auto 35px;
+}
+
+.productCard .productImg img
+{
+      height: 50vh;
+      display: block;
+      margin: 0 auto;
+}
+
+.productContent
+{
+      padding: 10px;
+      margin: 15px 0;
+}
+
+/*===================================================================================================*/
+/*PRODUCT*/
+
+.product
+{
+      padding: 35px;
+}
+
+.sideVector
+{
+      position: absolute;
+      height: 100vh;
+      width: 250px;
+      left: 0;
+      z-index: -1;
+      background: crimson;
+}
+
+.productbox
+{
+      position: relative;
+      
+      padding: 45px;
+      height: 70vh;
+      width: 90vw;
+}
+
+.imgbox
+{
+      height: 70vh;
+      width: 100%;
+      
+}
+
+.imgbox img
+{
+      height: 100%;
+      display: block;
+      margin: 0 auto;
+      box-shadow: 19px 20px 46px 0 rgba(0, 0, 0, 0.521);
+}
